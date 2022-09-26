@@ -9,7 +9,7 @@ data scienc portfolio
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
 * Built a client facing API using flask
 
-![alt text](https://github.com/PlayingNumbers/Ken_Portfolio/blob/master/images/positions_by_state.png)
+![](/images/positions_by_state.png)
 
 
 # [Project 2: Ball Image Classifier](https://github.com/PlayingNumbers/ball_image_classifier)
