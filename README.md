@@ -2,9 +2,18 @@ Data Scientist made in Germany
 
 # [1. Natural Language Processing Project: Top2Vec, LDA and LSA]()
 
+* Analyzing Gaming Trends in Stream Titles
+
+
 # [2. Classification Project: Predict Premier League Results using Machine Learning]()
 
+
+
 # [3. Regression Project: The Change in Value of the Associate’s Degree after the Financial Crisis of 2007/2008]()
+
+
+
+
 
 # [4. Clusering Project:]()
 
