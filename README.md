@@ -1,5 +1,5 @@
 # Paul Schumacher's Portfolio
-Data Science made in Germany
+Data Scientist made in Germany
 
 # [Project 1: Data Science Salary Estimator](https://github.com/PlayingNumbers/ds_salary_proj)
 
