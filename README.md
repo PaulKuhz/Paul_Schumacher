@@ -1,7 +1,17 @@
-# Paul Schumacher's Portfolio
 Data Scientist made in Germany
 
-# [Project 1: Natural Language Processing (NLP): ](https://github.com/PlayingNumbers/ds_salary_proj)
+# [1. Natural Language Processing Project: Top2Vec, LDA and LSA]()
+
+# [2. Classification Project: Predict Premier League Results using Machine Learning]()
+
+# [3. Regression Project: The Change in Value of the Associate’s Degree after the Financial Crisis of 2007/2008]()
+
+# [4. Clusering Project:]()
+
+
+
+
+
 
 * Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
 * Scraped over 1000 job descriptions from glassdoor using python and selenium
@@ -12,7 +22,6 @@ Data Scientist made in Germany
 ![](/images/positions_by_state.png)
 
 
-# [Project 2: Ball Image Classifier](https://github.com/PlayingNumbers/ball_image_classifier)
 For this example project I built a ball classifier to identify balls from different sports. This could be useful for someone who is new to sports from a  certain country. They could take a picture of a ball and an app could serve them some information about the history and rules of the game. This is the underlying model for building something with those capabilities.
 
 I was able to get the model to predict the sport of the ball with 94% accuracy after minimal tuning. For most of the cases this would meet the need of an end user of the app. To get these results I used transfer learning on a CNN trained on resnet34. This created time efficiencies and solid results.
