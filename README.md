@@ -1,4 +1,4 @@
-# Paul_Portfolio.github.io
+# Paul_Portfolio
 data scienc portfolio
 
 # [Project 1: Data Science Salary Estimator](https://github.com/PlayingNumbers/ds_salary_proj)
