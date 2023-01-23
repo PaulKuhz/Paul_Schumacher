@@ -13,7 +13,7 @@ Data Scientist made in Germany
 * After putting the stream titles in a list, I apply applied the **unsupervised learning** mothod Top2Vec to cluster all titles into three general topics, each consisting of 339, 272, or 260 titles respectively with characteristic words for each subgroup.
 * It is hard to differenciate between the topic groups because all titles were chosen to describe the game *Alien: isolation*. With the aid of the characteristic words I created a **Topic Vector** for each subgroup highlighting the streaming title which is closest to the respective topic vectors.
 
-<img src="https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/specia.png" width=50% height=50%>
+<img src="https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/topvec.png" width=50% height=50%>
 
 ### Latent Dirichlet Allocation (LDA)
  * After removing all punctuations, changing all uppercase to lowercase letters and removing all non-regular expressions and stop words, I extract expressions that are represented in at least two titles and appear in a maximum of 95% of the titles.
