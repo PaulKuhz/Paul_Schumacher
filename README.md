@@ -16,11 +16,11 @@ Data Scientist made in Germany
 * The topics are still similar to each other, but the removal of stop words makes the results more differentiable than in the output created by Top2Vec.
 
 ### Latent Semantic Analysis (LSA)
-* Finally, we use Latent Semantic Analysis (LSA) to extract the relationship between different words in the titles.
 * After removing stop words, I utilize the function **TF-IDF Vectorization** to create a matrix which can be decomposed to find topics and respective characterizing words.
 * A pivotal difference to LDA is the chosen the number of topics as I select five topics and showed the top seveb words characterizing each topic in the following table.
 
-## Ideas for further Research:
+## Application of this Project:
+*
 
 
 # [2. Classification Project: Predict Premier League Results using Machine Learning]()
