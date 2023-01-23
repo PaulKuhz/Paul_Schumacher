@@ -4,6 +4,8 @@ Data Scientist made in Germany
 
 * This project shows my contribution to the program [*Twitch Twits*](https://medium.com/@ucladsu/analyzing-gaming-trends-with-stream-titles-and-viewer-statistics-4a6bc17385e5) for the student association [Data Science Union](https://www.datascienceunion.com/) at UCLA.
 * The dataset was manually pulled from the [Twitch API](https://dev.twitch.tv/docs/api/). Using the package [rTwtichAPI in R](https://github.com/Freguglia/rTwitchAPI/blob/master/README.md), I scrpaped data for one on the most frequently displayed games on the streaming platform Twitch: *Alien Isolation*.
+<img src="https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/cloud.png" width=50% height=50%>
+
 * The dataset contained 871 unique streaming titles. At first I divided the data into a train and test set, prepared the training corpus into one giant string, and split it by white space. I ended up with 5799 total strings of which 2835 were unique. I specifically looked at strings containing a number, a hyphen connecting two words, special punctuation, only lowercase letters, only uppercase letters, the same character 3+ times in a row, and emojis as visualized in the following table:
 
 <img src="https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/specia.png" width=50% height=50%>
