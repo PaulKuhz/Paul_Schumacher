@@ -25,7 +25,7 @@ Data Scientist made in Germany
 
 ![](https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/thirdpic.png=250x250)
 
-<img src="[https://your-image-url.type](https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/thirdpic.png)" width="100" height="100">
+<img src="[https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/thirdpic.png]" width="100" height="100">
 
 
 ## Application of this Project:
