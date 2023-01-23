@@ -5,7 +5,7 @@ Data Scientist made in Germany
 * This dataset was manually pulled from the [Twitch API](https://dev.twitch.tv/docs/api/). Using the package [rTwtichAPI in R](https://github.com/Freguglia/rTwitchAPI/blob/master/README.md), I scrpaped data for one on the most frequently displayed games on the streaming platform Twitch: *Alien Isolation*.
 * The dataset contained 871 unique streaming titles. At first I divided the data into a train and test set, prepared the training corpus into one giant string, and split it by white space. I ended up with 5799 total strings of which 2835 were unique. I specifically looked at strings containing a number, a hyphen connecting two words, special punctuation, only lowercase letters, only uppercase letters, the same character 3+ times in a row, and emojis as visualized in the following table:
 
-<img src="https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/thirdpic.png" width=50% height=50%>
+<img src="https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/specialities.png" width=50% height=50%>
 
 * I apply **Tokenization** to extract meaningful words before **word net-lemmatization** to normalize each token to extract reasonable expressions. I removed 1528 tokens that were stop words which allowed to analyze the most frequently used tokens as a single word (unigram), a pair (bigram), a triple (trigram), and as a quadruple (fourgram).
 
