@@ -2,8 +2,7 @@ Data Scientist made in Germany
 
 # [1. Natural Language Processing Project: Top2Vec, LDA and LSA]()
 
-* Trends in Twitch Stream Titles of the Game *Alien: Isolation*
-* This dataset was manually pulled from the Twitch API. Using the package rTwtichAPI in R, I scrpaped data for one on the most frequently streamed games on Twitch: Alien Isolation.
+* This dataset was manually pulled from the [Twitch API](https://dev.twitch.tv/docs/api/). Using the package [rTwtichAPI in R](https://github.com/Freguglia/rTwitchAPI/blob/master/README.md), I scrpaped data for one on the most frequently streamed games on Twitch: *Alien Isolation*.
 * 
 
 
