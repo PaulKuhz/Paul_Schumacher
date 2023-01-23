@@ -23,6 +23,8 @@ Data Scientist made in Germany
 * After removing stop words, I utilize the function **TF-IDF Vectorization** to create a matrix which can be decomposed to find topics and respective characterizing words.
 * A pivotal difference to LDA is the chosen the number of topics as I select five topics and showed the top seveb words characterizing each topic in the following table.
 
+![alt text](thirdpic.png)
+
 ## Application of this Project:
 *
 
