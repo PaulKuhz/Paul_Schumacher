@@ -17,7 +17,7 @@ Data Scientist made in Germany
 <img src="https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/topvec.png" width=50% height=50%>
 
 * It is hard to differenciate between the topic groups because all titles were chosen to describe the game *Alien: isolation*. With the aid of the characteristic words I created a **Topic Vector** for each subgroup highlighting the streaming title which is closest to the respective topic vectors.
-
+<img src="https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/insta.png" width=50% height=50%>
 
 ### Latent Dirichlet Allocation (LDA)
  * After removing all punctuations, changing all uppercase to lowercase letters and removing all non-regular expressions and stop words, I extract expressions that are represented in at least two titles and appear in a maximum of 95% of the titles.
@@ -30,7 +30,7 @@ Data Scientist made in Germany
 * A pivotal difference to LDA is the chosen the number of topics as I select five topics and showed the top seveb words characterizing each topic in the following table.
 <img src="https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/thirdpic.png" width=50% height=50%>
 
-## Application of this Project:
+### Application of this Project:
 * ftgzhnuim
 
 
