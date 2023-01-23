@@ -20,7 +20,7 @@ Data Scientist made in Germany
 * I apply the **LatentDirichletAllocation** model to create four arrays to find matching words characterizing each topic.
 * The topics are still similar to each other, but the removal of stop words makes the results more differentiable than in the output created by Top2Vec.
 
-<img src="https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/specia.png" width=50% height=50%>
+<img src="https://github.com/PaulKuhz/Paul_Schumacher/blob/main/images/lda.png" width=50% height=50%>
 
 ### Latent Semantic Analysis (LSA)
 * After removing stop words, I utilize the function **TF-IDF Vectorization** to create a matrix which can be decomposed to find topics and respective characterizing words.
