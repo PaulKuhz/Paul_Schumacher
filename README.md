@@ -2,9 +2,14 @@ Data Scientist made in Germany
 
 # [1. Natural Language Processing Project: Top2Vec, LDA and LSA]()
 
-* This dataset was manually pulled from the [Twitch API](https://dev.twitch.tv/docs/api/). Using the package [rTwtichAPI in R](https://github.com/Freguglia/rTwitchAPI/blob/master/README.md), I scrpaped data for one on the most frequently streamed games on Twitch: *Alien Isolation*.
-* 
+* This dataset was manually pulled from the [Twitch API](https://dev.twitch.tv/docs/api/). Using the package [rTwtichAPI in R](https://github.com/Freguglia/rTwitchAPI/blob/master/README.md), I scrpaped data for one on the most frequently displayed games on the streaming platform Twitch: *Alien Isolation*.
+* The dataset contained 871 unique streaming titles
 
+* Starting with Top2Vec as an unsupervised learning method, we tried to cluster all the titles into general topics. Therefore, we put at first all the stream titles in a list and applied the Top2Vec model. It narrowed down all titles into three main topics/ categories, each consisting of respectively 339, 272, or 260 titles. The following table summarizes the characteristic words for each subgroup.
+
+*As we can see, it is hard to tell the difference between the topics since there is a lot of overlap of words between the topic groups because all the titles were chosen to describe the game Alien: isolation. In the following step, we use these characteristic words of the topic words to create a Topic Vector for each subgroup. Lastly, for each of the different Topic Vectors, we print the streaming titles, which in all their words, are closest to the respective topic vectors, as shown in the following graph.
+
+* Finally, we use Latent Semantic Analysis (LSA) to extract the relationship between different words in the titles. After removing stop words, we utilize the function TF-IDF Vectorization to create a matrix of titles and total words. In the following step, we decompose this matrix to find topics and respective matching words characterizing each topic. A pivotal difference to LDA is that we can define the number of topics before we run the model. We chose five topics and showed the top 7 words characterizing this topic in the following table. As pointed out before, it is difficult to differentiate between the concepts.
 
 
 
