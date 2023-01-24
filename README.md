@@ -1,3 +1,4 @@
+**|Work in Progress|**
 Data Scientist made in Germany
 
 # [1. Natural Language Processing Project: Top2Vec, LDA and LSA]()
