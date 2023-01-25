@@ -36,8 +36,11 @@ Data Scientist made in Germany
 
 
 # [2. Classification Project: Predict Premier League Match Results using Machine Learning]()
-* I scraped the data using the **Requests** library from the sports data page [FBref](https://fbref.com/en/), parse the HTML documents using **Beautiful Soup** and finally load everything into a **Pandas** Data Frame
-+
+* I scraped the data using the **Requests** library from the sports data page [FBref](https://fbref.com/en/), parse the HTML documents using **Beautiful Soup** and finally load everything into a **Pandas** data frame
+* To run the Machine Learning Model, I transferred all the relevant variables (e.g. oponent, match week day, kick off time, home/away game) into numeric values (ordinal and categorical).
+*
+
+
 
 
 # [3. Regression Project: The Change in Value of the Associate’s Degree after the Financial Crisis of 2007/2008]()
